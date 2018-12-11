@@ -642,7 +642,7 @@
 {
 	"status": "ok",
 	"data": {
-		"amount": "0.6468",
+		"fee": "0.6468",
 		"symbol": "ETH",
 	}
 }
