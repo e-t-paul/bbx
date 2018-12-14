@@ -53,7 +53,9 @@
 - **待解决问题**
 	- [通过什么方式发送token？](#通过什么方式发送token)
 	- [采用什么方式处理多语言问题？](#采用什么方式处理多语言问题)
-	
+
+## BBX Websocket  
+<https://github.com/e-t-paul/bbx/blob/master/bbx-api/websocket.md>  
 
 ## 术语
 - **Public API**        不需要登录，可直接访问的API
