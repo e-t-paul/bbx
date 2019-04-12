@@ -724,7 +724,9 @@
 | Reward   | true     | float64  | 奖励金额   |                                         |
 | Result   | true     |  string  | 开奖结果   |           0表示未知 1表示流局           |
 | Price    | true     | float64  | 单注金额   |                                         |
-| Ts       | true     |  int64   | 开奖时间   |                                         |
+| Ts       | true     |  int64   | 投注时间   |                                         |
+| Choice   | true     |  string  | 投注内容   |   一维空间0数字 1字母 其他空间即实际的投注内容      |
+| WinningNumbers      | true     |  string   | 开奖号码   |  一维空间0数字 1字母 其他即实际的开奖号码  |
 
 请求响应示例
 
@@ -735,18 +737,21 @@
 {
 	"status": "ok",
 	"data": {
-		"Id": 244,
-		"Num": 571014,
+		"Id": 253,
+		"Num": 571172,
 		"Name": "一维空间",
-		"Quantity": 2,
+		"Quantity": 10,
 		"Winning": 1,
 		"State": 2,
-		"Reward": 0,
-		"Result": "1",
+		"Reward": 22.866667,
+		"Result": "0",
 		"Price": 1,
-		"Ts": 1554897203
+		"Ts": 1554974254,
+		"Choice": "0",
+		"WinningNumbers": "0"
 	}
 }
+
 /* 2.请求失败返回
 /* GET /v1/personal/bet/246
 */
